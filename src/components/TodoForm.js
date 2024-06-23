@@ -21,7 +21,7 @@ export const TodoForm = ({ addTodo }) => {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           className="todo-input"
-          placeholder="What are the plans today?"
+          placeholder="write your plans "
         />
         <button type="submit" className="todo-btn">
           Add plans
